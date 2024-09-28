@@ -36,4 +36,8 @@ body {
 
 button {
   background: none;
+  border: 1px solid #9aabd8;
+  color: #9aabd8;
+  border-radius: 5px;
+  padding: 4px;
 }
