@@ -8,3 +8,13 @@ function incrementOneHome() {
   homeScore += 1;
   homeScoreDisplay.textContent = homeScore;
 }
+
+function incrementTwoHome() {
+  homeScore += 2;
+  homeScoreDisplay.textContent = homeScore;
+}
+
+function incrementThreeHome() {
+  homeScore += 3;
+  homeScoreDisplay.textContent = homeScore;
+}
