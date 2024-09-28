@@ -5,10 +5,33 @@
 
 body {
   margin: 0;
+  text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
+}
+
+#home-score {
+  background: #0a0001;
+  font-family: "Timer", sans-serif;
+  font-size: 90px;
+  color: #f94f6d;
+  width: 120px;
+  margin: 20px;
+}
+
+#guest-score {
+  background: #0a0001;
+  font-family: "Timer", sans-serif;
+  font-size: 90px;
+  color: #f94f6d;
+  width: 120px;
+  margin: 20px;
+}
+
+button {
+  background: none;
 }
