@@ -1,10 +1,10 @@
 const homeScoreDisplay = document.getElementById("home-score");
 const guestScoreDisplay = document.getElementById("guest-score");
 
-const addOneHome = document.getElementById("homebtn-add1");
-const addTwoHome = document.getElementById("homebtn-add2");
-const addThreeHome = document.getElementById("homebtn-add3");
+let homeScore = 0;
+let guestScore = 0;
 
-const addOneGuest = document.getElementById("guestbtn-add1");
-const addTwoGuest = document.getElementById("guestbtn-add2");
-const addThreeGuest = document.getElementById("guestbtn-add3");
+function incrementOneHome() {
+  homeScore += 1;
+  homeScoreDisplay.textContent = homeScore;
+}
