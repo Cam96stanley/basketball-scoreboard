@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Timer";
+  src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
