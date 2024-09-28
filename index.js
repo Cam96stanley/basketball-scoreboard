@@ -18,3 +18,18 @@ function incrementThreeHome() {
   homeScore += 3;
   homeScoreDisplay.textContent = homeScore;
 }
+
+function incrementOneGuest() {
+  guestScore += 1;
+  guestScoreDisplay.textContent = guestScore;
+}
+
+function incrementTwoGuest() {
+  guestScore += 2;
+  guestScoreDisplay.textContent = guestScore;
+}
+
+function incrementThreeGuest() {
+  guestScore += 3;
+  guestScoreDisplay.textContent = guestScore;
+}
